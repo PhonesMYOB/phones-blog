@@ -1,0 +1,14 @@
+$body-background-color: #21263a;
+$header-site-title-color:#ff6600;
+
+body {
+	background-color: $body-background-color;
+}
+
+.site-title {
+	font-family: 'Fredoka One', cursive;
+	color: $header-site-title-color;
+	font-size: 25px;
+	text-transform: upper;
+	padding-top: 50px;
+}
