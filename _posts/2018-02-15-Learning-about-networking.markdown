@@ -15,9 +15,11 @@ So, the internet was created, that was pretty great, but for people to connect t
 Eventually, after giving public IP addresses out like candy on halloween, ICANN (Internet Corporation for Assigned Names and Numbers, I think the title is self-explanatory enough) got worried. "Guys, if we just give a public IP to everyone, won't we eventually run out of IPs to give?", said someone, which when I think about it it's totally strange because from my understanding they'd have around 4.3 billion public IP adresses back then, so either this guy had pretty good foresight of how many machines there would be now, or I'm just underestimating how many machines there were back then. Regardless, everyone was like "Yeah alright that's probably a good idea".
 
 They came up with a few IP addresses that would be "private", that meant that no one could PUBLICLY access that address. This VIP club of private addresses was named RFC1918. Apparently this is just a very brief overview of course, but the 3 IP ranges I was taught to be private are:
-192.168.0.0/16
-172.16.0.0/10
-10.0.0.0/8
+<ul>
+<li>192.168.0.0/16</li>
+<li>172.16.0.0/10</li>
+<li>10.0.0.0/8</li>
+</ul>
 (Oh, and don't worry about the /(number), I'll explain that in a few lines.)
 That means if anyone trying to publicly find an IP address that uses those numbers is gonna have a bad time. They're hidden from the public.
 
@@ -41,9 +43,11 @@ Where each 1 can either be a 1 or a 0. Now, I'm not going to explain binary but 
 "So why do I need to know the binary part of this?"
 Well, thats because the /(number) relates to that. It refers to the number of BINARY houses your network can "edit", meaning that if you are using
 192.168.0.0/16
--The 192.168 is FIXED, and every IP inside that network will have those numbers. Meaning there are 16 FIXED Binary houses being used.
--The 0.0 is NOT FIXED, meaning you can edit them. Meaning there are 16 NOT FIXED Binary houses for use. Hence, the /16.
--16+16 = 32, meaning all numbers are used.
+<ul>
+<li>The 192.168 is FIXED, and every IP inside that network will have those numbers. Meaning there are 16 FIXED Binary houses being used.</li>
+<li>The 0.0 is NOT FIXED, meaning you can edit them. Meaning there are 16 NOT FIXED Binary houses for use. Hence, the /16.</li>
+<li>16+16 = 32, meaning all numbers are used.</li>
+</ul>
 
 
 To be more clear:
