@@ -53,8 +53,9 @@ Well, that's because the /(number) relates to that. It refers to the number of B
 192.168.0.0/16
 <ul>
 <li>The 192.168 is FIXED, and every IP inside that network will have those numbers. Meaning there are 16 FIXED Binary digits being used.</li>
-<li>The 0.0 is NOT FIXED, meaning you can edit them. Meaning there are 16 NOT FIXED Binary digits for use. Hence, the /16.</li>
-<li>16+16 = 32, meaning all numbers are used.</li>
+<li>The 0.0 is NOT FIXED, meaning you can edit them. Meaning there are 16 NOT FIXED Binary digits for use.</li>
+<li>The /16 are the digits that are fixed, not that are free.</li>
+<li>And as you can see, 16+16 = 32, meaning all numbers are used.</li>
 </ul>
 
 
