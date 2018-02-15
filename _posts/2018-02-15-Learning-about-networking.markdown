@@ -22,14 +22,17 @@ They came up with a few IP addresses that would be "private", that meant that no
 </ul>
 (Oh, and don't worry about the /(number), I'll explain that in a few lines.)
 That means if anyone trying to publicly find an IP address that uses those numbers is gonna have a bad time. They're hidden from the public.
+<img src="../_imgs/networking/hidden.jpg">
 
 "But Pedro why is this important, the number of addresses are still the same right?"
 Kind of, but not really. Public IP adresses are still limited, but multiple computers can have the same private IP adresses in different networks because there's no way. I kinda think of it as multiple appartments. No building can have the same adress, that's impossible. However, more than one building can have the same unit numbers. There can be hundreds or people living on the fourth floor on apt 420, but they all live in different buildings. I can have the address 192.168.0.1, and so can someone else, as long as we don't do it inside the same private network. Again, grossly simplifying things but that's what I understood from it.
 
-That also affects how you connect to the internet at home, all your machines use 1 public address graciously given to you by your ISP, and each of your machines has a different private address to connect to it. But how the heck 
+That also affects how you connect to the internet at home, all your machines use 1 public address graciously given to you by your ISP, and each of your machines has a different private address to connect to it. They all connect to a gateway (Usually your router). Your router has public interface that gives you a public IP address, but inside your house all machines are connected internally privately.
+<img src="../_imgs/networking/isp.jpg">
 
 Meaning that, networks that are local, for example working in a wonderful company like MYOB, you can use those private IP addresses within it's network. You can have the IP 192.168.0.122 or something, because you're using it internally. And other computers on that internal network can also see you! Like I said, it's like a VIP party, no one on the outside is invited, and everyone on the inside is having heaps of fun. 
 There are certain numbers that cannot be used, whether they are private like I talked about, or they are reserved for things like "boradcast" or "this" (Don't ask me what these are I just heard the terms). 
+<img src="../_imgs/networking/gateway.jpg">
 
 Right, before we finish, the /(numbers), and how IP addresses are formed. If you were to look at an IP address, chances are you are looking at a pattern similar to this:
 {% highlight ruby %}
@@ -53,6 +56,7 @@ Well, thats because the /(number) relates to that. It refers to the number of BI
 To be more clear:
 192.168 in binary is equal to 11000000.10101000. You can see there are 16 1/0s there right?
 And the 255.255 is equal to 11111111.11111111, which also is 16 1/0s.
+<img src="../_imgs/networking/binary.jpg">
 
 I hope this was entertaining and/or useful, but that's it for today. Again, I'm still learning a lot of things, so if you have anything that you want me to correct, add or even articles/books to read, just give me a lil tweet, my twitter is at the bottom of the page. Till next time!
 
