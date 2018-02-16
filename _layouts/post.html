@@ -14,9 +14,5 @@ layout: default
         Written by <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
     </sub>
 {% endif %}
-
+<p>'\n'</p>
 {{content}}
-
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
