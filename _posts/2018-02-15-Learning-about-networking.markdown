@@ -4,7 +4,7 @@ title:  "Learning about networking"
 date:   2018-02-15 10:38:35 +1100
 categories: jekyll update
 ---
-Today I got a quick overview of how public addresses work. Before I type anything, let me clear up that I'M NOT AN EXPERT IN THE SUBJECT, and if you know about how networking works chances are you know more than me, so if anything I wrote is wrong feel free to let me know, twitter handle's down the bottom.
+Today I got a quick overview of how public addresses work. Before I type anything, let me clear up that I'M NOT AN EXPERT IN THE SUBJECT, and if you know about how networking works chances are you know more than me, so if anything I wrote is wrong feel free to let me know, twitter handle's <s>down the bottom</s>@unplggedphones.
 
 Without further ado, let me tell you what I learnt today about networking. A long long time ago, when computers weren't at the palm of our hands but actually more used for scientific research, some US government dudes just really wanted to communicate better (probably between each other for war reasons but don't quote me on that), so a bunch of scientist got together and created this network of networks we'd eventually call... 
 {% highlight ruby %}
@@ -64,7 +64,7 @@ To be more clear:
 And the 255.255 is equal to 11111111.11111111, which also is 16 1/0s.
 <img src="https://github.com/PhonesMYOB/phonesmyob.github.io/blob/master/_imgs/networking/binary.jpg?raw=true">
 
-I hope this was entertaining and/or useful, but that's it for today. Again, I'm still learning a lot of things, so if you have anything that you want me to correct, add or even articles/books to read, just give me a lil' tweet, my twitter is at the bottom of the page. Till next time!
+I hope this was entertaining and/or useful, but that's it for today. Again, I'm still learning a lot of things, so if you have anything that you want me to correct, add or even articles/books to read, again, just give me a lil' tweet. Till next time!
 
 Pedro.
 
