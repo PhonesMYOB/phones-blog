@@ -23,6 +23,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: unplgged_phones
 github_username:  PhonesMYOB
 
+pedro_coelho_pais:
+    name: Pedro Coelho Pais
+    email: pedro.coelhopais@myob.com
+    web: https://twitter.com/unplgged_phones
+
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-minimal
