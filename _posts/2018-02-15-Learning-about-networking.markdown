@@ -1,5 +1,6 @@
 ---
 layout: post
+author: pedro_coelho_pais
 title:  "Learning about networking"
 date:   2018-02-15 10:38:35 +1100
 categories: jekyll update
